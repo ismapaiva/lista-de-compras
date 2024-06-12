@@ -1,7 +1,7 @@
 > Objetos serve para armazentar dados
 > Um objeto é composto por: chave: "valor"
 > Posso guardar diversos tipos de dados em um objeto, inclusive funcionalidades (funções).
-> Para adicionar uma propriedade ao objeto podemos usar a notaçã de ponto, exemplo: objeto.idade = 31 (add uma chave idade com o valor 31 em meu objeto), ou pela notação de colchetes, exemplo: objeto[cidade] = "São Paulo"
+> Para adicionar uma propriedade ao objeto podemos usar a notaçã de ponto, exemplo: objeto.idade = 31 (add uma chave idade com o valor 31 em meu objeto), ou pela notação de colchetes, exemplo: objeto['cidade'] = "São Paulo"
 
 Qual a diferença de declarar uma variavel com var, let e const?
     - declarndo uma variavel com var, dentro de um for, while ou if, essa variavel vaza do escopo.
