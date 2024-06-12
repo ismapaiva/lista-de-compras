@@ -1,3 +1,8 @@
+# Introdução do Projeto
+
+A ideia central deste projeto foi explorar a interação com o DOM (Document Object Model) utilizando JavaScript, manipulando elementos HTML e estilizando-os através de CSS de forma dinâmica. O objetivo foi criar uma aplicação simples e funcional que permitisse a gestão de uma lista de compras, proporcionando uma experiência prática e intuitiva para o usuário.
+
+# Informações de JavaScript
 > Objetos serve para armazentar dados
 > Um objeto é composto por: chave: "valor"
 > Posso guardar diversos tipos de dados em um objeto, inclusive funcionalidades (funções).
@@ -12,42 +17,3 @@ Qual a diferença de declarar uma variavel com var, let e const?
 > deletar uma chave e valor de um objeto: delete nomeDoObjeto.nomeDaChave
 > Editar o valor de uma chave de um objeto: passar apenas o objeto+chave, exemplo: nomeDoObjeto.nomeDaChave = "novo valor"
 
-
-#Projeto Lista de Compras - Utilizado no Curso Objetos no JavaScript - Escola Front-End Alura
-
-Neste arquivo encontram-se modelos de códigos que serão utilizados no decorrer do curso. 
-
-Código modelo da li "Comprados":
-
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" checked class="is-clickable" />  
-            <span class="itens-comprados is-size-5"></span>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
-
-Código modelo da li "Lista de compras": 
-
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" class="is-clickable" />
-            <input type="text" class="is-size-5" value=""></input>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
-
-Input com código refatorado:
-
-    <div>
-        <input type="checkbox" checked class="is-clickable" />  
-        <span class="itens-comprados is-size-5">${elemento.valor}</span>
-    </div>
-
-Ícones de edição:
-
-    <i class="fa-regular fa-floppy-disk is-clickable"></i><i class="fa-regular is-clickable fa-pen-to-square editar"></i>
